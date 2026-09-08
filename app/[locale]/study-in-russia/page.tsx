@@ -2,7 +2,7 @@ import { setRequestLocale, getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { Reveal } from "@/components/reveal";
 import { GraduationCap, Users, HeartHandshake, ArrowRight, Check } from "lucide-react";
-import { PassportIllustration } from "@/components/illustrations/passport-illustration";
+import { RussiaStudyIllustration } from "@/components/illustrations/russia-study-illustration";
 
 export default async function StudyInRussiaPage({
   params,
@@ -46,7 +46,7 @@ export default async function StudyInRussiaPage({
             </Link>
           </div>
           <div className="fade-up-in-delay-2 aspect-[4/3] overflow-hidden rounded-2xl">
-            <PassportIllustration className="h-full w-full" />
+            <RussiaStudyIllustration className="h-full w-full" />
           </div>
         </div>
       </div>
